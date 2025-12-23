@@ -1,0 +1,20 @@
+{
+  "applinks":{
+    "apps":[
+       
+    ],
+    "details":[
+      {
+        "appIDs":[
+          "TeamID.com.finance.walletwise"
+        ],
+        "components":[
+          {
+            "/":"/home/amount-to-send-to-tag",
+            "comment":"Used in qr scan from native device scanner"
+          }
+        ]
+      }
+    ]
+  }
+}
