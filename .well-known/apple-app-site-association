@@ -3,48 +3,24 @@
     "apps": [],
     "details": [
       {
-        "appIDs": [
-          "T7L52JAWMH.com.finance.walletwise"
-        ],
+        "appIDs": ["T7L52JAWMH.com.finance.walletwise"],
         "components": [
-          {
-            "/": "/home/amount-to-send-to-tag",
-            "comment": "Amount to send page"
-          },
-          {
-            "/": "/home/referral",
-            "comment": "Referral page"
-          }
+          { "/": "/home/amount-to-send-to-tag*" },
+          { "/": "/home/referral*" }
         ]
       },
       {
-        "appIDs": [
-          "T7L52JAWMH.com.finance.walletwise.dev"
-        ],
+        "appIDs": ["T7L52JAWMH.com.finance.walletwise.dev"],
         "components": [
-          {
-            "/": "/home/amount-to-send-to-tag",
-            "comment": "Amount to send page"
-          },
-          {
-            "/": "/home/referral",
-            "comment": "Referral page"
-          }
+          { "/": "/home/amount-to-send-to-tag*" },
+          { "/": "/home/referral*" }
         ]
       },
       {
-        "appIDs": [
-          "T7L52JAWMH.com.finance.walletwise.staging"
-        ],
+        "appIDs": ["T7L52JAWMH.com.finance.walletwise.staging"],
         "components": [
-          {
-            "/": "/home/amount-to-send-to-tag",
-            "comment": "Amount to send page"
-          },
-          {
-            "/": "/home/referral",
-            "comment": "Referral page"
-          }
+          { "/": "/home/amount-to-send-to-tag*" },
+          { "/": "/home/referral*" }
         ]
       }
     ]
