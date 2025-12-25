@@ -1,37 +1,49 @@
 {
-  "applinks":{
-    "apps":[],
-    "details":[
+  "applinks": {
+    "apps": [],
+    "details": [
       {
-        "appIDs":[
+        "appIDs": [
           "T7L52JAWMH.com.finance.walletwise"
         ],
-        "components":[
+        "components": [
           {
-            "/":"/home/amount-to-send-to-tag",
-            "comment":"Used in qr scan from native device scanner"
+            "/": "/home/amount-to-send-to-tag",
+            "comment": "Amount to send page"
+          },
+          {
+            "/": "/home/referral",
+            "comment": "Referral page"
           }
         ]
       },
       {
-        "appIDs":[
+        "appIDs": [
           "T7L52JAWMH.com.finance.walletwise.dev"
         ],
-        "components":[
+        "components": [
           {
-            "/":"/home/amount-to-send-to-tag",
-            "comment":"Used in qr scan from native device scanner"
+            "/": "/home/amount-to-send-to-tag",
+            "comment": "Amount to send page"
+          },
+          {
+            "/": "/home/referral",
+            "comment": "Referral page"
           }
         ]
-      }
+      },
       {
-        "appIDs":[
+        "appIDs": [
           "T7L52JAWMH.com.finance.walletwise.staging"
         ],
-        "components":[
+        "components": [
           {
-            "/":"/home/amount-to-send-to-tag",
-            "comment":"Used in qr scan from native device scanner"
+            "/": "/home/amount-to-send-to-tag",
+            "comment": "Amount to send page"
+          },
+          {
+            "/": "/home/referral",
+            "comment": "Referral page"
           }
         ]
       }
