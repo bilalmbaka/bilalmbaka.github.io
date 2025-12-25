@@ -1,12 +1,32 @@
 {
   "applinks":{
-    "apps":[
-       
-    ],
+    "apps":[],
     "details":[
       {
         "appIDs":[
           "T7L52JAWMH.com.finance.walletwise"
+        ],
+        "components":[
+          {
+            "/":"/home/amount-to-send-to-tag",
+            "comment":"Used in qr scan from native device scanner"
+          }
+        ]
+      },
+      {
+        "appIDs":[
+          "T7L52JAWMH.com.finance.walletwise.dev"
+        ],
+        "components":[
+          {
+            "/":"/home/amount-to-send-to-tag",
+            "comment":"Used in qr scan from native device scanner"
+          }
+        ]
+      }
+      {
+        "appIDs":[
+          "T7L52JAWMH.com.finance.walletwise.staging"
         ],
         "components":[
           {
