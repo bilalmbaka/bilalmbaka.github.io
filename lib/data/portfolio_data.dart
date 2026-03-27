@@ -5,7 +5,7 @@ import '../models/project.dart';
 class PortfolioData {
   static const String name = 'Mbaka Bilal Tudor';
   static const String email = 'mbakabilal.t@gmail.com';
-  static const String github = 'github.com/mbaka-bilal';
+  static const String github = 'github.com/bilalmbaka';
 
   static final List<WorkExperience> workExperiences = [
     WorkExperience(
