@@ -9,9 +9,15 @@ class PortfolioData {
 
   static final List<WorkExperience> workExperiences = [
     WorkExperience(
+      company: 'Alaart',
+      position: 'Flutter Developer',
+      startDate: DateTime(2023, 1),
+      endDate: DateTime(2024, 1),
+    ),
+    WorkExperience(
       company: 'Harvoxx Tech Hub',
       position: 'Flutter Developer',
-      startDate: DateTime(2024, 1),
+      startDate: DateTime(2024, 3),
       endDate: DateTime(2025, 3),
     ),
     WorkExperience(
