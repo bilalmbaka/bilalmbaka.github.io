@@ -9,6 +9,18 @@ class PortfolioData {
 
   static final List<WorkExperience> workExperiences = [
     WorkExperience(
+      company: 'Walletwise',
+      position: 'Flutter Developer',
+      startDate: DateTime(2025, 9),
+      endDate: null, // Currently working
+    ),
+    WorkExperience(
+      company: 'Harvoxx Tech Hub',
+      position: 'Flutter Developer',
+      startDate: DateTime(2024, 3),
+      endDate: DateTime(2025, 6),
+    ),
+    WorkExperience(
       company: 'Helixgade',
       position: 'Flutter Developer (Intern)',
       startDate: DateTime(2022, 10),
@@ -19,18 +31,6 @@ class PortfolioData {
       position: 'Flutter Developer (Intern)',
       startDate: DateTime(2023, 5),
       endDate: DateTime(2024, 1),
-    ),
-    WorkExperience(
-      company: 'Harvoxx Tech Hub',
-      position: 'Flutter Developer',
-      startDate: DateTime(2024, 3),
-      endDate: DateTime(2025, 6),
-    ),
-    WorkExperience(
-      company: 'Walletwise',
-      position: 'Flutter Developer',
-      startDate: DateTime(2025, 9),
-      endDate: null, // Currently working
     ),
   ];
 
@@ -46,7 +46,7 @@ class PortfolioData {
     Project(
       title: 'Yirapay',
       description:
-          'An escrow platform for crypto transactions, this is a project been maintained by I and my Colleague',
+          'An escrow platform for crypto transactions, this is a project been maintained by I and my Colleague.',
       links: {
         'Website': 'https://app.useyirapay.com',
         'App Store': 'https://apps.apple.com/gh/app/yirapay/id6755782075',
@@ -55,7 +55,7 @@ class PortfolioData {
     Project(
       title: 'Alarrt',
       description:
-          'An emergency services app, i was part of the initial group of people that brought this project to life, when i worked as an intern',
+          'An emergency services app, i was part of the initial group of people that brought this project to life, when i worked remotely as intern with Alaart a company based in Lagos state, Nigeria. ',
       links: {
         'Website': 'https://alarrt.com',
         'App Store': 'https://apps.apple.com/ng/app/alarrt-app/id6450431527',
@@ -66,7 +66,7 @@ class PortfolioData {
     Project(
       title: 'Walletwise',
       description:
-          'A fintech app enabling users to send, receive money, buy and sell gitcards and much more',
+          'A fintech app enabling users to send, receive money, buy and sell gitcards and much more.',
       links: {
         'Website': 'https://walletwise.ng/',
         'App Store':
@@ -78,7 +78,7 @@ class PortfolioData {
     Project(
       title: 'Invoicer',
       description:
-          'A app enabling businesses to manage their inventory, and much more, i was part of the team that works on the first version of the app when i worked for the company Harvoxx tech hub, based in portharcourt.',
+          'A app enabling businesses to manage their inventory, and much more, i was part of the team that works on the first version of the app when i worked for the company Harvoxx tech hub, based in Rivers state, Nigeria.',
       links: {
         'Website': 'https://www.getinvoicer.app/',
         'App Store':

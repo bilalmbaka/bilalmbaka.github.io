@@ -18,7 +18,7 @@ class ProjectsSection extends StatelessWidget {
             Text('Projects', style: Theme.of(context).textTheme.displayMedium),
             const SizedBox(height: AppTheme.spacingM),
             Text(
-              'Here are some of the projects I\'ve worked on',
+              'You will find here projects i worked on both as short term Gigs, projects i am working on where i am currently employed and my persoal projects which are projects i am maintaing.',
               style: Theme.of(
                 context,
               ).textTheme.bodyLarge?.copyWith(color: AppTheme.textSecondary),
