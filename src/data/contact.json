@@ -1,0 +1,26 @@
+{
+  "email": "mbakabilal.t@gmail.com",
+  "links": [
+    {
+      "label": "GitHub",
+      "handle": "@bilalmbaka",
+      "url": "https://github.com/bilalmbaka",
+      "icon": "github",
+      "description": "Code, open-source contributions, and side projects."
+    },
+    {
+      "label": "LinkedIn",
+      "handle": "in/bilal-mbaka-0536ba1b5",
+      "url": "https://www.linkedin.com/in/bilal-mbaka-0536ba1b5",
+      "icon": "linkedin",
+      "description": "Professional experience, recommendations, and connections."
+    },
+    {
+      "label": "Medium",
+      "handle": "@mbakabilal.t",
+      "url": "https://medium.com/@mbakabilal.t",
+      "icon": "medium",
+      "description": "Articles and tutorials about Flutter, Node.js, and software engineering."
+    }
+  ]
+}

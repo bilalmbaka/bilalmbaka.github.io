@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Mobile Development",
+    "items": ["Flutter", "Riverpod", "Provider", "Bloc"]
+  },
+  {
+    "category": "Backend Development",
+    "items": ["Node.js", "Express", "NestJS", "REST APIs", "WebSockets", "JWT Auth"]
+  },
+  {
+    "category": "Databases & Cloud",
+    "items": ["Supabase", "PostgreSQL", "Firebase"]
+  },
+  {
+    "category": "Tools & Practices",
+    "items": ["Git & GitHub", "CI/CD", "Unit Testing", "Clean Architecture", "Agile/Scrum"]
+  }
+]

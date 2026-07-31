@@ -1,0 +1,47 @@
+[
+  {
+    "role": "Flutter Developer",
+    "company": "Walletwise",
+    "location": "Remote",
+    "period": "Sep 2025 — Present",
+    "summary": "Maintaining the mobile app for Walletwise, a fintech product, ensuring stability, reliability, and a great user experience.",
+    "points": [
+      "Integrated a comprehensive bug tracking service to streamline issue reporting and resolution",
+      "Integrated comprehensive user analytics tracking to understand user behavior and drive improvements",
+      "Maintained app stability and overall quality, along with various ongoing enhancements"
+    ]
+  },
+  {
+    "role": "Flutter Developer",
+    "company": "Harvoxx Tech Hub",
+    "location": "Woji, porthourcourt, Rivers state",
+    "period": "Mar 2024 — Jun 2025",
+    "summary": "Developed mobile applications with Flutter at Harvoxx Tech Hub.",
+    "points": [
+      "Built Flutter applications for various client projects",
+      "Implemented UI components and integrated REST APIs"
+    ]
+  },
+  {
+    "role": "Flutter Developer (Intern)",
+    "company": "Alaart",
+    "location": "Remote",
+    "period": "May 2023 — Jan 2024",
+    "summary": "Interned as a Flutter developer, contributing to the Alaart application.",
+    "points": [
+      "Assisted in building and maintaining Flutter screens",
+      "Learned state management and app architecture best practices"
+    ]
+  },
+  {
+    "role": "Flutter Developer (Intern)",
+    "company": "Helixgade",
+    "location": "Remote",
+    "period": "Oct 2022 — Nov 2022",
+    "summary": "Built a mobile app that enables users to chat with doctors about girls' health-related issues, powered by Firebase.",
+    "points": [
+      "Built a chat-with-doctors mobile app focused on girls' health issues using Flutter",
+      "Integrated Firebase for authentication, real-time chat, and data storage"
+    ]
+  }
+]

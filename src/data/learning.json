@@ -1,0 +1,12 @@
+[
+  {
+    "topic": "Hardware Engineering",
+    "description": "Exploring electronics, circuits, and how software interacts with physical hardware.",
+    "tag": "In progress"
+  },
+  {
+    "topic": "Native Android Development with Kotlin",
+    "description": "Building native Android applications using Kotlin and the Android SDK.",
+    "tag": "In progress"
+  }
+]

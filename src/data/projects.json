@@ -1,0 +1,31 @@
+[
+ {
+    "title": "Walletwise",
+    "description": "A fintech app enabling users to send and receive money, buy and sell gift cards, and much more.",
+    "stack": ["Flutter"],
+    "links": [
+      { "label": "Website", "url": "https://walletwise.ng/" },
+      { "label": "App Store", "url": "https://apps.apple.com/ng/app/walletwise-seamless-payment/id6744754064" },
+      { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.finance.walletwise.app" }
+    ]
+  },
+  {
+    "title": "Yirapay",
+    "description": "An escrow platform for crypto transactions. A project maintained by me and my colleague.",
+    "stack": ["Flutter"],
+    "links": [
+      { "label": "Website", "url": "https://app.useyirapay.com" },
+      { "label": "App Store", "url": "https://apps.apple.com/gh/app/yirapay/id6755782075" }
+    ]
+  },
+  {
+    "title": "Alarrt",
+    "description": "An emergency services app. I was part of the initial group of people that brought this project to life while working remotely as an intern with Alaart, a company based in Lagos State, Nigeria.",
+    "stack": ["Flutter"],
+    "links": [
+      { "label": "Website", "url": "https://alarrt.com" },
+      { "label": "App Store", "url": "https://apps.apple.com/ng/app/alarrt-app/id6450431527" },
+      { "label": "Google Play", "url": "https://play.google.com/store/apps/details?id=com.alarrt.beta" }
+    ]
+  }
+]
