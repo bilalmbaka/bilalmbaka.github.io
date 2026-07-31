@@ -1,4 +1,4 @@
-import contact from '../data/contact.json'
+import { useJson } from '../utils/useJson'
 import Section from './Section'
 
 function Icon({ name }) {
@@ -18,6 +18,8 @@ function Icon({ name }) {
 }
 
 export default function Links() {
+  const { data: contact, loading } = useJson('contact')
+  if (loading) return null
   return (
     <Section id="contact" title="Let's Connect" subtitle="Find me around the web.">
       <div className="links-grid">

@@ -1,7 +1,9 @@
-import learning from '../data/learning.json'
+import { useJson } from '../utils/useJson'
 import Section from './Section'
 
 export default function Learning() {
+  const { data: learning, loading } = useJson('learning')
+  if (loading) return null
   return (
     <Section id="learning" title="Currently Learning" subtitle="Always leveling up.">
       <div className="learning-grid">

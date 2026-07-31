@@ -1,7 +1,9 @@
-import education from '../data/education.json'
+import { useJson } from '../utils/useJson'
 import Section from './Section'
 
 export default function Education() {
+  const { data: education, loading } = useJson('education')
+  if (loading) return null
   return (
     <Section id="education" title="Education" subtitle="My academic background and certifications.">
       <div className="timeline">

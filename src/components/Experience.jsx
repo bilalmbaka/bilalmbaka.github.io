@@ -1,7 +1,9 @@
-import experience from '../data/experience.json'
+import { useJson } from '../utils/useJson'
 import Section from './Section'
 
 export default function Experience() {
+  const { data: experience, loading } = useJson('experience')
+  if (loading) return null
   return (
     <Section
       id="experience"

@@ -1,7 +1,9 @@
-import projects from '../data/projects.json'
+import { useJson } from '../utils/useJson'
 import Section from './Section'
 
 export default function Projects() {
+  const { data: projects, loading } = useJson('projects')
+  if (loading) return null
   return (
     <Section id="projects" title="Projects" subtitle="A selection of things I've worked on.">
       <div className="projects-grid">

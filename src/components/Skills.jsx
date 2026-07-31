@@ -1,7 +1,9 @@
-import skills from '../data/skills.json'
+import { useJson } from '../utils/useJson'
 import Section from './Section'
 
 export default function Skills() {
+  const { data: skills, loading } = useJson('skills')
+  if (loading) return null
   return (
     <Section id="skills" title="Skills" subtitle="Technologies and tools I work with every day.">
       <div className="skills-grid">

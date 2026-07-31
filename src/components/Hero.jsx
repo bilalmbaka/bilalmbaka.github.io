@@ -1,11 +1,13 @@
-import profile from '../data/profile.json'
+import { useJson } from '../utils/useJson'
 
 export default function Hero() {
+  const { data: profile, loading } = useJson('profile')
   const handleDownload = async () => {
     const { downloadResume } = await import('../utils/generateResume')
-    downloadResume()
+    await downloadResume()
   }
 
+  if (loading) return null
   return (
     <section id="top" className="hero">
       <div className="container hero-inner">

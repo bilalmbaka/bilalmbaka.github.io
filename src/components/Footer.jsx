@@ -1,7 +1,9 @@
-import profile from '../data/profile.json'
+import { useJson } from '../utils/useJson'
 
 export default function Footer() {
+  const { data: profile, loading } = useJson('profile')
   const year = new Date().getFullYear()
+  if (loading) return null
   return (
     <footer className="footer">
       <div className="container footer-inner">

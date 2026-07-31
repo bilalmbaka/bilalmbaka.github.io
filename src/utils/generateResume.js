@@ -1,13 +1,9 @@
 // =============================================================
 //  RESUME GENERATOR — builds a professional PDF resume from
-//  the JSON data in src/data/. Edits there flow into the PDF.
+//  the JSON data in public/data/. Edits there flow into the PDF.
 // =============================================================
 import { jsPDF } from "jspdf";
-import profile from "../data/profile.json";
-import experience from "../data/experience.json";
-import education from "../data/education.json";
-import skills from "../data/skills.json";
-import contact from "../data/contact.json";
+import { fetchData } from "./useJson";
 
 // Brand colors (match the site accent)
 const ACCENT = [99, 102, 241]; // indigo
@@ -15,7 +11,8 @@ const INK = [28, 28, 36]; // body text
 const GRAY = [105, 105, 118]; // secondary text
 const HEADER_BG = [15, 15, 22];
 
-export function buildResumeDoc() {
+export function buildResumeDoc(data) {
+  const { profile, experience, education, skills, contact } = data;
   const doc = new jsPDF({ unit: "mm", format: "a4" });
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
@@ -228,8 +225,21 @@ export function buildResumeDoc() {
   return doc;
 }
 
-export function downloadResume() {
-  const doc = buildResumeDoc();
+export async function downloadResume() {
+  const [profile, experience, education, skills, contact] = await Promise.all([
+    fetchData("profile"),
+    fetchData("experience"),
+    fetchData("education"),
+    fetchData("skills"),
+    fetchData("contact"),
+  ]);
+  const doc = buildResumeDoc({
+    profile,
+    experience,
+    education,
+    skills,
+    contact,
+  });
   const fileName = `${profile.name.replace(/\s+/g, "_")}_Resume.pdf`;
   doc.save(fileName);
 }

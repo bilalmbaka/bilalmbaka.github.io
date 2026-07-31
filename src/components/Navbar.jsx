@@ -1,9 +1,11 @@
 import { useState } from 'react'
-import navItems from '../data/nav.json'
-import profile from '../data/profile.json'
+import { useJson } from '../utils/useJson'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const { data: navItems, loading: navLoading } = useJson('nav')
+  const { data: profile, loading: profileLoading } = useJson('profile')
+  if (navLoading || profileLoading) return null
 
   const handleNav = (e) => {
     e.preventDefault()
