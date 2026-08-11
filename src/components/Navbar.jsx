@@ -9,7 +9,14 @@ export default function Navbar() {
 
   const handleNav = (e) => {
     e.preventDefault()
-    const id = e.currentTarget.getAttribute('href').slice(1)
+    const href = e.currentTarget.getAttribute('href')
+    // Page links (e.g. #/blog) navigate instead of scrolling to a section.
+    if (href.startsWith('#/')) {
+      window.location.hash = href
+      setOpen(false)
+      return
+    }
+    const id = href.slice(1)
     const el = document.getElementById(id)
     if (el) el.scrollIntoView({ behavior: 'smooth' })
     setOpen(false)
@@ -38,7 +45,7 @@ export default function Navbar() {
         <ul className={`nav-links ${open ? 'open' : ''}`}>
           {navItems.map((item) => (
             <li key={item.id}>
-              <a href={`#${item.id}`} onClick={handleNav}>
+              <a href={item.page ? `#/${item.page}` : `#${item.id}`} onClick={handleNav}>
                 {item.label}
               </a>
             </li>

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
@@ -7,8 +8,20 @@ import Projects from './components/Projects'
 import Learning from './components/Learning'
 import Links from './components/Links'
 import Footer from './components/Footer'
+import BlogPage from './pages/BlogPage'
 
-function App() {
+// Minimal hash router: "#/blog" shows the notes page, anything else shows the portfolio.
+function useHashRoute() {
+  const [hash, setHash] = useState(window.location.hash)
+  useEffect(() => {
+    const onChange = () => setHash(window.location.hash)
+    window.addEventListener('hashchange', onChange)
+    return () => window.removeEventListener('hashchange', onChange)
+  }, [])
+  return hash
+}
+
+function Portfolio() {
   return (
     <>
       <Navbar />
@@ -26,4 +39,8 @@ function App() {
   )
 }
 
-export default App
+export default function App() {
+  const hash = useHashRoute()
+  if (hash.startsWith('#/blog')) return <BlogPage />
+  return <Portfolio />
+}

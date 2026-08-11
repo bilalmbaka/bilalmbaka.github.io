@@ -1,0 +1,113 @@
+[
+    {
+    "category": "Flutter",
+    "sections": [
+      {
+        "topic": "Practice Questions",
+        "notes": ["/notes/flutter/practise_questions.md"]
+      },
+      {
+        "topic": "CodePush",
+        "notes": ["/notes/flutter/codepush/shorebird.md"]
+      },
+      {
+        "topic": "Flutter Misc",
+        "notes": ["/notes/flutter/flutter_misc.md"]
+      },
+      {
+        "topic": "PostHog",
+        "notes": [
+          "/notes/flutter/posthog/info.md",
+          "/notes/flutter/posthog/introduction.md"
+        ]
+      },
+      {
+        "topic": "Performance Profiling",
+        "notes": ["/notes/flutter/preformance_profiling.md"]
+      },
+      {
+        "topic": "Publishing",
+        "notes": ["/notes/flutter/publishing.md"]
+      },
+      {
+        "topic": "Testing",
+        "notes": [
+          "/notes/flutter/testing/unit-testing.md",
+          "/notes/flutter/testing/widget-testing.md"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Android",
+    "sections": [
+      {
+        "topic": "Jetpack Compose · Architecture",
+        "notes": ["/notes/android/jetpack_compose/architecture/architecting.md"]
+      },
+      {
+        "topic": "Jetpack Compose · Fundamentals",
+        "notes": ["/notes/android/jetpack_compose/fundamentals/compose_phases.md"]
+      }
+    ]
+  },
+  {
+    "category": "PostgreSQL",
+    "sections": [
+      { "topic": "Tables", "notes": ["/notes/postgres/tables.md"] },
+      {
+        "topic": "User Management",
+        "notes": ["/notes/postgres/user_management.md"]
+      }
+    ]
+  },
+  {
+    "category": "Hardware",
+    "sections": [
+      { "topic": "Hardware", "notes": ["/notes/hardware/hardware.md"] }
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "sections": [
+      {
+        "topic": "Imperative vs Declarative Programming",
+        "notes": [
+          "/notes/computer_science/imperative_vs_declarative_programming.md"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Linux",
+    "sections": [
+      { "topic": "Linux", "notes": ["/notes/linux/linux.md"] }
+    ]
+  },
+  {
+    "category": "Pentesting",
+    "sections": [
+      {
+        "topic": "Mobile · Sniffing Traffic",
+        "notes": ["/notes/pentesting/mobile/sniffing_traffic.md"]
+      }
+    ]
+  },
+  {
+    "category": "System Administration",
+    "sections": [
+      {
+        "topic": "macOS · Clawing Back Space",
+        "notes": ["/notes/system_administration/macos/clawing_back_space.md"]
+      }
+    ]
+  },
+    {
+    "category": "AI",
+    "sections": [
+      { "topic": "Basics", "notes": ["/notes/ai/basics.md"] },
+      { "topic": "MCP", "notes": ["/notes/ai/mcp.md"] },
+      { "topic": "Tools", "notes": ["/notes/ai/tools.md"] }
+    ]
+  }
+]

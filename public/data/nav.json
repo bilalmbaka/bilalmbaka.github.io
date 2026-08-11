@@ -4,5 +4,6 @@
   { "label": "Skills", "id": "skills" },
   { "label": "Projects", "id": "projects" },
   { "label": "Learning", "id": "learning" },
+  { "label": "Blog", "id": "blog", "page": "blog" },
   { "label": "Contact", "id": "contact" }
 ]
