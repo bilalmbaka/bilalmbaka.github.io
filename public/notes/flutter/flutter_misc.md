@@ -17,3 +17,9 @@ pod repo update
 pod install
 cd ..
 ```
+
+__Upgrading all packages in a project__
+
+```bash
+flutter pub upgrade --major-versions
+```
